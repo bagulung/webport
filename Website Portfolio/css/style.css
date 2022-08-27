@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body {
+    font-family: 'Lato', sans-serif; 
+}
+
+.navbar{
+    background: rgba(0,0,0,0.3);
+}
+.navbar-brand{
+    height: 4rem;
+}
+
+.video-background img{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0,0,0,0.2) ;
+}
+
+.caption{
+    position : absolute;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+}
+.caption h1{
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: .2rem;
+    text-shadow: .1rem .1rem .8rem white;
+    padding-bottom: 1rem;
+}
+.caption h3{
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .6rem white;
+    padding-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+.btn-lg{
+    border-width: medium;
+    border-radius: 0;
+    font-size: 1.1rem;
+    padding: .6rem 1.3rem;
+    font-weight: 900;
+}
+.col-6 h3{
+    font-weight: 600;
+}
+
+.col-12 h1{
+    font-weight: 800
+}
